@@ -106,6 +106,6 @@ This sample using the following libraries and frameworks:
   - Navigate to `http://localhost:8090`, to see the Selenoid UI sessions
   - Videos of the Sessions will be available in `c/selenoid/video`
 - On Test completion, Extent Report with status of all tests opens automatically in default browser. 
-- In command prompt, run the below docker command to create a docker image for the framework with the name `myautomationdockerimage`  
-      `docker build -t myautomationdockerimage .`
+- In command prompt, run the below docker command to create a docker image for the framework with the name `amazontestframeworkdockerimage`  
+      `docker build -t amazontestframeworkdockerimage .`
 - Open Docker desktop application to see the Docker image created under Images section.
