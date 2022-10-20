@@ -1,0 +1,7 @@
+/**
+ * Package containing classes related to Driver implementation in Framework
+ * 
+ * @since 05-Oct-2022
+ * @author Suganya Jothiramalingam
+ */
+package com.amazon.driver;

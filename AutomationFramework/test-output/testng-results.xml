@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="1" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-10-18T22:32:41 IST" name="Suite" finished-at="2022-10-18T22:34:11 IST" duration-ms="89913">
+    <groups>
+    </groups>
+    <test started-at="2022-10-18T22:32:41 IST" name="Test" finished-at="2022-10-18T22:34:11 IST" duration-ms="89913">
+      <class name="com.suganya.tests.AmazonTest">
+        <test-method is-config="true" signature="setUp([Ljava.lang.Object;)[pri:0, instance:com.suganya.tests.AmazonTest@1349883]" started-at="2022-10-18T22:32:42 IST" name="setUp" finished-at="2022-10-18T22:32:50 IST" duration-ms="7951" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Ljava.lang.Object;@3e1162e7]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="test1(com.suganya.dataprovider.AmazonTestData)[pri:0, instance:com.suganya.tests.AmazonTest@1349883]" started-at="2022-10-18T22:32:50 IST" name="test1" data-provider="supplySeqData" finished-at="2022-10-18T22:33:27 IST" duration-ms="36483" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[AmazonTestData(browser=chrome, version=106.0, category=TV, Appliances, Electronics, subcategory=Televisions, filtersection=Brands, filtervalue=Samsung, sorttype=Price: High to Low)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.suganya.tests.AmazonTest@1349883]" started-at="2022-10-18T22:33:27 IST" name="tearDown" finished-at="2022-10-18T22:33:27 IST" duration-ms="62" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp([Ljava.lang.Object;)[pri:0, instance:com.suganya.tests.AmazonTest@1349883]" started-at="2022-10-18T22:33:27 IST" name="setUp" finished-at="2022-10-18T22:33:35 IST" duration-ms="8528" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Ljava.lang.Object;@79c3f01f]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="test1(com.suganya.dataprovider.AmazonTestData)[pri:0, instance:com.suganya.tests.AmazonTest@1349883]" started-at="2022-10-18T22:33:35 IST" name="test1" data-provider="supplySeqData" finished-at="2022-10-18T22:34:10 IST" duration-ms="35029" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[AmazonTestData(browser=firefox, version=106.0, category=TV, Appliances, Electronics, subcategory=Televisions, filtersection=Brands, filtervalue=LG, sorttype=Price: Low to High)]]>
+              </value>
+            </param>
+          </params>
+          <exception class="com.suganya.exceptions.WebElementNotFoundException">
+            <message>
+              <![CDATA[No element found using locator - By.xpath: //ul[@role='listbox']/li/a[text()='Price: Low to High']]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[com.suganya.exceptions.WebElementNotFoundException: No element found using locator - By.xpath: //ul[@role='listbox']/li/a[text()='Price: Low to High']
+at com.suganya.factories.ExplicitWaitFactory.performExplicitWait(ExplicitWaitFactory.java:62)
+at com.suganya.utils.PageActions.clickElement(PageActions.java:51)
+at com.suganya.pages.AmazonCategoryPage.sortResults(AmazonCategoryPage.java:113)
+at com.suganya.tests.AmazonTest.test1(AmazonTest.java:50)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- com.suganya.exceptions.WebElementNotFoundException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.suganya.tests.AmazonTest@1349883]" started-at="2022-10-18T22:34:10 IST" name="tearDown" finished-at="2022-10-18T22:34:11 IST" duration-ms="666" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.suganya.tests.AmazonTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

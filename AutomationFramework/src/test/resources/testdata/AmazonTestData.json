@@ -1,0 +1,20 @@
+[
+	{
+      "browser": "chrome",
+      "version": "106.0",
+      "category": "TV, Appliances, Electronics",
+      "subcategory": "Televisions",
+      "filtersection": "Brands",
+      "filtervalue": "Samsung",
+      "sorttype": "Price: High to Low"
+    },
+	{
+      "browser": "firefox",
+      "version": "106.0",
+      "category": "TV, Appliances, Electronics",
+      "subcategory": "Televisions",
+      "filtersection": "Brands",
+      "filtervalue": "LG",
+      "sorttype": "Price: Low to High"
+    }
+]

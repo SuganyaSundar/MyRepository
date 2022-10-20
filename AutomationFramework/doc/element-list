@@ -1,0 +1,13 @@
+com.suganya.annotations
+com.suganya.constants
+com.suganya.dataprovider
+com.suganya.driver
+com.suganya.enums
+com.suganya.exceptions
+com.suganya.factories
+com.suganya.listeners
+com.suganya.owner
+com.suganya.pages
+com.suganya.reports
+com.suganya.tests
+com.suganya.utils
